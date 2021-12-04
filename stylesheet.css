@@ -1,0 +1,54 @@
+header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  flex-flow: column nowrap;
+}
+h1 {
+  font-size: 300%;
+}
+h2 {
+  font-size: 250%;
+}
+h3 {
+  font-size: 200%
+}
+h4 {
+  font-size: 125%;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  padding: 10px;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.services article {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column wrap;
+  padding: 10px;
+}
+.map, .info, .about, .nav p {
+  margin: 10px;
+}
+.instructors {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.instructors aside {
+  justify-content: flex-end;
+  margin-left: 20px;
+}
+footer {
+  background-image: url("images/footerImage.jpg");
+  padding: 20px;
+}
