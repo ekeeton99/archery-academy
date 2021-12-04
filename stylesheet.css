@@ -36,7 +36,7 @@ h4 {
   flex-flow: column wrap;
   padding: 10px;
 }
-.map, .info, .about, .nav p {
+.map, .info, .about, .nav a {
   margin: 10px;
 }
 .instructors {
