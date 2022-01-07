@@ -6,6 +6,20 @@ header {
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  background-color: #007EA8;
+}
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
 }
 .title {
   flex-flow: column nowrap;
@@ -53,7 +67,8 @@ h4 {
   margin-left: 20px;
 }
 footer {
-  background-image: url("images/footerImage.jpg");
+  background-color: #007EA8;
+  width: auto;
   padding: 20px;
 }
 .grid-item-1 {
